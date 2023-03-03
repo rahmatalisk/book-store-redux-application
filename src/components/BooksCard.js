@@ -73,7 +73,7 @@ const handleUpdateBook = (id)=>{
         </div>
 
         <div className="space-y-2 mt-4 h-full">
-          <h4 className="lws-bookName">Life Hurts: {name}</h4>
+          <h4 className="lws-bookName"> {name}</h4>
           <p className="lws-author">{author}</p>
           <div className="lws-stars">
             {ratingStar.map((star, index) => (
