@@ -42,10 +42,10 @@ const UpdateBook = ({ updateBookId, setShowUpdateForm }) => {
   return (
     <div>
       <div className="p-4 overflow-hidden bg-white shadow-cardShadow rounded-md">
-        <h4 className="mb-8 text-xl font-bold text-center">Add New Book</h4>
+        <h4 className="mb-8 text-xl font-bold text-center">Edit Book</h4>
         <form className="book-form" onSubmit={handleSubmit}>
           <div className="space-y-2">
-            <label forhtml="name">Edit Book </label>
+            <label forhtml="name">Book Name</label>
             <input
               required
               className="text-input"
