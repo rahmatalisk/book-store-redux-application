@@ -45,7 +45,7 @@ const UpdateBook = ({ updateBookId, setShowUpdateForm }) => {
         <h4 className="mb-8 text-xl font-bold text-center">Add New Book</h4>
         <form className="book-form" onSubmit={handleSubmit}>
           <div className="space-y-2">
-            <label forhtml="name">Book Name</label>
+            <label forhtml="name">Edit Book </label>
             <input
               required
               className="text-input"
